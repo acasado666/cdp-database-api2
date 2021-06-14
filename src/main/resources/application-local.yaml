@@ -53,7 +53,8 @@ spring:
     deserialization:
       FAIL_ON_UNKNOWN_PROPERTIES: false
       FAIL_ON_IGNORED_PROPERTIES: false
-
+  banner:
+    location: classpath:/custom-banner.txt
 # -------------------------------------------------------------------------------------------------
 # Custom  Tigergraph configurations
 # -------------------------------------------------------------------------------------------------
@@ -63,3 +64,5 @@ config:
   graphDbReadTimeoutMs: 500
   cacheTtl: 86400
   cacheMb: 200
+
+
