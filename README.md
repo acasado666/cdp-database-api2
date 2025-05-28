@@ -19,7 +19,7 @@ This project was developed with:
 
 * **Java 15 (Java Development Kit - JDK: 15.0.1)**
 * **Spring Boot 2.4.5**
-* **Maven**
+* **Gradle**
 * **JUnit 5**
 * **spring doc openapi 1.5.8**
 * **Lombok**
